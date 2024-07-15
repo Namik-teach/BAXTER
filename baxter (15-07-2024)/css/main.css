@@ -1,0 +1,70 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+#wrapper {
+    width:1024px;
+    height:900px;
+    margin: 0 auto;
+    outline:1px solid black;
+}
+#top-line {
+    width:1024px;
+    height: 24px;
+    background-image:url(../images/top-line-bg.PNG);
+   
+}
+#header {
+    position: relative;
+}
+
+#logo {
+    width: 241px;
+    height: 73px;
+    background-image: url(../images/logo.png);
+    position: absolute;
+    top:30px;
+    left:40px;
+}
+#nav {
+    position: absolute;
+    top:50px;
+    left:300px;
+    margin:0;
+    padding: 0;
+    width:600px;
+    height:26px;
+    text-transform:uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+
+    
+}
+
+#nav li{
+    list-style-type: none;
+    display:inline;
+    
+}
+#nav li a{
+    text-decoration: none;
+    margin-right:15px;
+    line-height: 26px;
+}
+#tvs {
+    position: absolute;
+    top:-24px;
+    right: 50px;
+    background-image: url(../images/TVS.png);
+    width:94px;
+    height:162px;
+}
+
+#people {
+    width:1024px;
+    height:500px;
+    outline: 1px solid blue;
+    position:absolute;
+    top:200px;
+}
