@@ -246,14 +246,154 @@ body {
 	border:none;
 }
 
+/* black-block  */
+
 #black-block {
+    box-sizing: border-box;
     width:1024px; height:529px;
     background-color:#1D1E1B;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:87px 0 12px 40px;
+    color:white;
 }
+#black-block div{
+    box-sizing: border-box;
+    width:289px; height:415px;
+    float:left;
+    margin-right:37px;
+    padding:0;
+}
+#black-block div h2, #grey-block div h2{ 
+    font-size:18.67px;
+    font-weight:normal;
+    margin:0;
+    padding:13px 0 9px 0;
+    color:white;
+}
+#black-block div p, #about-startlive p{
+    color:#94998f;
+    font-size:13.34px;
+    margin:0;
+    padding: 3px 0 25px 0;
+    line-height:1.2;
+
+}
+#black-block div a{
+    display:block;
+    width:99px; height:25px;
+    font-size:16px;
+    color:#ADC4D2;
+    text-decoration:none;
+    background-color:#2C789C;
+    text-align:center;
+    line-height:25px;
+    border-radius: 8px;
+}
+#news h2 span {
+    color:#2c789c;
+    font-size:15px;
+    margin-left:30px;
+}
+#news div {
+    height:81px;
+    margin-bottom:40px;
+    
+
+}
+#news div img{
+    float:left;
+    margin-right: 7px;
+}
+
+#news div h3{
+    font-size:14px;
+    margin: 0;
+    padding:0;
+}
+#news div p{
+    color: #94998f;
+    font-size: 13px;
+    margin: 0;
+    padding:0;
+    height:43px;
+    overflow:hidden;
+}
+#news div a{
+    color:#2c789c;
+    font-size:13px;
+    text-decoration:underline;
+    display: inline;
+    background:none;
+}
+/* grey-block */
+
 #grey-block {
+    box-sizing: border-box;
     width:1024px; height:213px;
     background-color:#2E302C;
+    padding:3px 0 12px 40px;
+    box-sizing: border-box;
 }
+#grey-block div{
+    float:left;
+    margin-right:37px;
+}
+#about-startlive {
+    width:289px;
+    /* height:415px; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin:0;
+    padding: 0;
+}
+#grey-block  #about-startlive p{
+    height:89px;
+    overflow:hidden;
+    margin-bottom:12px;
+    margin-top:0;
+    padding-top:0
+}
+#grey-block  #about-startlive h2{
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+#about-startlive a{
+    color:#2c789c;
+    font-size:16px;
+ 
+}
+#partners {
+    width:620px;
+
+}
+#grey-block #partners h2{
+    margin-bottom:0;
+    padding-bottom: 0;    
+}
+#grey-block #partners p{
+    margin-top:0;
+    padding-top: 0;
+}
+#grey-block #partners ul{
+    
+    color: #94998f;
+    font-size:13px;
+    float:left;
+    margin-right:25px;
+    margin-left:20px;
+
+    line-height: 2;
+    margin-top:0;
+    padding-top:0
+}
+#partners ul li{
+    list-style-image: url("../images/ul-markers.png");
+    padding-left: 15px;
+
+}
+/* footer */
+
 #footer {
     width:1024px; height:156px;
     background-color:#131412;
